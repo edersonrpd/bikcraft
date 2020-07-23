@@ -40,12 +40,14 @@ p {
 }
 
 .subtitulo {
-  font-size: 24;
+  font-size: 24px;
   line-height: 30px;
   font-weight: bold;
   letter-spacing: 0.1em;
   color: var(--secondary-color);
   margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .subtitulo::after {
@@ -108,7 +110,7 @@ p {
   transition: width 200ms ease-in-out;
 }
 
-/* Introdução */
+/* IntroduÃ§Ã£o */
 .introducao {
   width: 100%;
   background: url("../img/bg.jpg") no-repeat center;
@@ -208,4 +210,27 @@ p {
 
 .call p {
   margin-bottom: 20px;
+}
+
+/*Portfolio*/
+.portfolio {
+  width: 100%;
+  background: var(--secondary-color);
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: var(--primary-color);
+}
+
+.portfolio .subtitulo:after {
+  background: var(--primary-color);
+}
+
+.portfolio-lista :last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call p {
+  color: var(--third-color);
 }
