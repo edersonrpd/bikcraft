@@ -16,6 +16,10 @@ p {
   line-height: 20px;
 }
 
+img {
+  display: block;
+}
+
 .btn {
   width: 140px;
   height: 40px;
@@ -66,7 +70,7 @@ p {
   width: 100%;
   background: var(--primary-color);
   padding: 15px 0;
-  max-height: 161px;
+  max-height: 159px;
   z-index: 10;
 }
 
@@ -115,7 +119,7 @@ p {
   width: 100%;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
-  margin-top: 95px;
+  margin-top: 92px;
   height: 380px;
   text-align: center;
 }
@@ -233,4 +237,51 @@ p {
 
 .portfolio .call p {
   color: var(--third-color);
+}
+
+/*Qualidade*/
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 211px;
+  left: 164px;
+  z-index: -1;
+}
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade-lista {
+  padding-top: 20px;
+}
+
+.qualidade-lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade-lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.qualidade-lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--secondary-color);
+  margin: 6px auto;
 }
