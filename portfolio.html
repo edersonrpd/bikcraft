@@ -3,12 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>Bikcraft - Portfólio</title>
+    <meta
+      name="description"
+      content="Compre a sua bicicleta personalizada na Bikcraft Possuimos modelos Passeio, Esportes e Retrô"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+    <meta
+      property="og:description"
+      content="Compre a sua bicicleta personalizada na Bikcraft Possuimos modelos Passeio, Esportes e Retrô"
+    />
+    <meta property="og:url" content="http://bikcraft.com" />
+    <meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <!-- Header -->
@@ -40,34 +57,61 @@
     <!--Introdução Interna -->
     <section class="introducao-interna interna-portfolio">
       <div class="container">
-        <h1>Portfólio</h1>
-        <p>conheça mais sobre a bikecraft</p>
+        <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+        <p data-anime="800" class="fadeInDown">conheça mais sobre a bikecraft</p>
       </div>
     </section>
     <!--Fim Introdução Interna -->
 
     <!-- Blockquote -->
-    <section class="container">
+    <section class="container fadeInDown" data-anime="1200" data-slide="quote">
       <blockquote class="quote-cliente">
         <p>
-          "No mundo atual, a contínua expansão de nossa atividade cumpre um
-          papel essencial na formulação da gestão inovadora na qual fazemos
-          parte."
+          "Pedar sempre foi minha paixão, o que o pessoal da Bikcraft fez foi
+          intensificar o meu amor por esta atividade. Recomendo à todos que
+          amo."
         </p>
         <cite>Barbara Moss</cite>
+      </blockquote>
+      <blockquote class="quote-cliente">
+        <p>
+          "Nada melhor do que dar um rolê com minha bikcraft na orla. Essa é
+          minha companheira mais fiel, nunca me traiu e está sempre a minha
+          disposição."
+        </p>
+        <cite>Johny Rato</cite>
+      </blockquote>
+      <blockquote class="quote-cliente">
+        <p>
+          "Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão
+          perdendo. A precisão é absurda e a velocidade transcendental. Nunca vi
+          nada igual"
+        </p>
+        <cite>Bernardo</cite>
       </blockquote>
     </section>
     <!-- Fim Blockquote -->
 
     <!-- Portfólio -->
     <section class="portfolio">
-      <div class="container">
+      <div class="container" data-slide="portfolio">
         <ul class="portfolio-lista">
           <li class="grid-8">
             <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro" />
           </li>
           <li class="grid-8">
             <img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
+          </li>
+          <li class="grid-16">
+            <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
+          </li>
+        </ul>
+        <ul class="portfolio-lista">
+          <li class="grid-8">
+            <img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
+          </li>
+          <li class="grid-8">
+            <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro" />
           </li>
           <li class="grid-16">
             <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
@@ -141,5 +185,10 @@
       </div>
     </footer>
     <!-- Fim Footer -->
-  </body>
+
+    <!-- Script -->
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- Fim Script -->
 </html>
