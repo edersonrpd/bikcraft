@@ -17,12 +17,7 @@
     <meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script>
       document.documentElement.classList.add("js");
     </script>
@@ -32,7 +27,7 @@
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
-          <img src="img/bikcraft.svg" alt="Bikcraft" />
+          <img src="./img/bikcraft.svg" alt="Bikcraft" />
         </a>
         <nav class="grid-12 header-menu">
           <ul>
@@ -64,7 +59,7 @@
     <!--Fim Introdução Interna -->
 
     <!-- Blockquote -->
-    <section class="container fadeInDown" data-anime="1200" data-slide="quote">
+    <div class="container fadeInDown" data-anime="1200" data-slide="quote">
       <blockquote class="quote-cliente">
         <p>
           "Pedar sempre foi minha paixão, o que o pessoal da Bikcraft fez foi
@@ -89,40 +84,40 @@
         </p>
         <cite>Bernardo</cite>
       </blockquote>
-    </section>
+    </div>
     <!-- Fim Blockquote -->
 
     <!-- Portfólio -->
-    <section class="portfolio">
+    <div class="portfolio">
       <div class="container" data-slide="portfolio">
         <ul class="portfolio-lista">
           <li class="grid-8">
-            <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro" />
+            <img src="./img/portfolio/retro.jpg" alt="Bicicleta Retro" />
           </li>
           <li class="grid-8">
-            <img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
+            <img src="./img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
           </li>
           <li class="grid-16">
-            <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
+            <img src="/.img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
           </li>
         </ul>
         <ul class="portfolio-lista">
           <li class="grid-8">
-            <img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
+            <img src="./img/portfolio/passeio.jpg" alt="Bicicleta Passeio" />
           </li>
           <li class="grid-8">
-            <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro" />
+            <img src="./img/portfolio/retro.jpg" alt="Bicicleta Retro" />
           </li>
           <li class="grid-16">
-            <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
+            <img src="./img/portfolio/esporte.jpg" alt="Bicicleta Retro" />
           </li>
         </ul>
       </div>
-    </section>
+    </div>
     <!-- Fim Portfólio -->
 
     <!-- Quebra -->
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>
           "o verdadeiro segredo da felicidade está em ter um genuíno interesse
@@ -130,7 +125,7 @@
         </p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-    </section>
+    </div>
     <!-- Fim Queibra -->
 
     <!-- Footer -->
@@ -160,17 +155,17 @@
             <ul>
               <li>
                 <a href="http://facebook.com" target="_blank"
-                  ><img src="img/redes-sociais/facebook.svg"
+                  ><img src="./img/redes-sociais/facebook.svg" alt="Facebook"
                 /></a>
               </li>
               <li>
                 <a href="http://instagram.com" target="_blank"
-                  ><img src="img/redes-sociais/instagram.svg"
+                  ><img src="./img/redes-sociais/instagram.svg" alt="Instagram"
                 /></a>
               </li>
               <li>
                 <a href="http://twitter.com" target="_blank"
-                  ><img src="img/redes-sociais/twitter.svg"
+                  ><img src="./img/redes-sociais/twitter.svg" alt="Twitter"
                 /></a>
               </li>
             </ul>
@@ -191,4 +186,18 @@
     <script src="./js/simple-anime.js"></script>
     <script src="./js/script.js"></script>
     <!-- Fim Script -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174058893-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-174058893-1");
+    </script>
 </html>

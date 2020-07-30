@@ -17,12 +17,7 @@
     <meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/produtos.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script>
       document.documentElement.classList.add("js");
     </script>
@@ -32,7 +27,7 @@
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
-          <img src="img/bikcraft.svg" alt="Bikcraft" />
+          <img src="./img/bikcraft.svg" alt="Bikcraft" />
         </a>
         <nav class="grid-12 header-menu">
           <ul>
@@ -63,15 +58,21 @@
     </section>
     <section data-anime="1200" class="fadeInDown container produto-item">
       <div class="grid-11">
-        <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio" />
+        <img
+          src="./img/produtos/bikcraft-passeio-1.jpg"
+          alt="Bikcraft Passeio"
+        />
         <h2>Passeio</h2>
       </div>
 
       <div class="grid-5 produto-icone">
-        <img src="/img/produtos/passeio.svg" alt="Bikcraft Passeio" />
+        <img src="./img/produtos/passeio.svg" alt="Bikcraft Passeio" />
       </div>
       <div class="grid-8">
-        <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio" />
+        <img
+          src="./img/produtos/bikcraft-passeio-2.jpg"
+          alt="Bikcraft Passeio"
+        />
       </div>
       <div class="grid-8 produto-info">
         <p>
@@ -89,15 +90,21 @@
     </section>
     <section data-anime="1400" class="fadeInDown container produto-item">
       <div class="grid-11">
-        <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte" />
+        <img
+          src="./img/produtos/bikcraft-esporte-1.jpg"
+          alt="Bikcraft Esporte"
+        />
         <h2>Esporte</h2>
       </div>
 
       <div class="grid-5 produto-icone">
-        <img src="/img/produtos/esporte.svg" alt="Bikcraft Passeio" />
+        <img src="./img/produtos/esporte.svg" alt="Bikcraft Passeio" />
       </div>
       <div class="grid-8">
-        <img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte" />
+        <img
+          src="./img/produtos/bikcraft-esporte-2.jpg"
+          alt="Bikcraft Esporte"
+        />
       </div>
       <div class="grid-8 produto-info">
         <p>
@@ -115,15 +122,15 @@
     </section>
     <section class="container produto-item">
       <div class="grid-11">
-        <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô" />
+        <img src="./img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô" />
         <h2>Retrô</h2>
       </div>
 
       <div class="grid-5 produto-icone">
-        <img src="/img/produtos/retro.svg" alt="Bikcraft Retro" />
+        <img src="./img/produtos/retro.svg" alt="Bikcraft Retro" />
       </div>
       <div class="grid-8">
-        <img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô" />
+        <img src="./img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô" />
       </div>
       <div class="grid-8 produto-info">
         <p>
@@ -175,7 +182,7 @@
     <!-- Fim Formulário -->
 
     <!-- Quebra -->
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>
           "o verdadeiro segredo da felicidade está em ter um genuíno interesse
@@ -183,7 +190,7 @@
         </p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-    </section>
+    </div>
     <!-- Fim Queibra -->
     <!-- Footer -->
     <footer>
@@ -197,6 +204,7 @@
               interesse por todos os detalhes da vida cotidiana cotidiana.
             </p>
           </div>
+
           <div class="grid-4 footer-contato">
             <h3>Contato</h3>
             <ul>
@@ -205,28 +213,30 @@
               <li>- Botafago - RJ</li>
             </ul>
           </div>
+
           <div class="grid-4 footer-redes">
             <h3>Redes Sociais</h3>
             <ul>
               <li>
                 <a href="http://facebook.com" target="_blank"
-                  ><img src="img/redes-sociais/facebook.svg"
+                  ><img src="./img/redes-sociais/facebook.svg" alt="Facebook"
                 /></a>
               </li>
               <li>
                 <a href="http://instagram.com" target="_blank"
-                  ><img src="img/redes-sociais/instagram.svg"
+                  ><img src="./img/redes-sociais/instagram.svg" alt="Instagram"
                 /></a>
               </li>
               <li>
                 <a href="http://twitter.com" target="_blank"
-                  ><img src="img/redes-sociais/twitter.svg"
+                  ><img src="./img/redes-sociais/twitter.svg" alt="Twitter"
                 /></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
       <div class="copy">
         <div class="container">
           <p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
@@ -239,5 +249,19 @@
     <script src="./js/simple-anime.js"></script>
     <script src="./js/script.js"></script>
     <!-- Fim Script -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174058893-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-174058893-1");
+    </script>
   </body>
 </html>
